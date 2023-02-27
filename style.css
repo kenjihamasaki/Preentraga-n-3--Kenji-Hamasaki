@@ -1,0 +1,65 @@
+H1{
+    text-align: center;
+}
+#agenda{
+    display: flex;
+    justify-content: center;
+}
+fieldset {
+    width: 50%;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;}
+
+fieldset input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 90%;
+    padding: 15px;
+}
+
+fieldset textarea{
+    background-color: transparent;
+    color: white;
+    height: 100px;
+    width: 90%;
+    border: none;
+    border: 1px solid black;
+    position: relative;
+    padding: 15px;
+}
+
+button{
+  padding: 10px 20px;
+  margin: 1em;
+  border-radius: 20px ;
+  border: 1px solid black;
+  text-transform: uppercase;
+  background-color: greenyellow;
+}
+
+button:hover{
+    background-color: #205295;
+    color: white;
+}
+
+#nuevaAgenda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 280px;
+    border: 1px solid;
+    margin: 10px;
+    padding: 15px;
+    display: block;
+    background-color: yellow;
+}
