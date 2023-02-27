@@ -78,6 +78,18 @@ function limpiarHTML(){
     }
 }
 
+const vaciarAgenda = document.getElementById("vaciarAgenda");
+
+vaciarAgenda.addEventListener("click", () => {
+    eliminarTodaAgenda();
+})
+
+const eliminarTodaAgenda = () => {
+    agregarAgenda = []; 
+    crearHtml();
+    localStorage.clear();
+}
+
 
 
 
